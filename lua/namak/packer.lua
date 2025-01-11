@@ -1,4 +1,4 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
+	-- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
@@ -20,11 +20,11 @@ use ({
 		vim.cmd('colorscheme kanagawa-dragon')
 	end})
 
+use('arduino/arduino-language-server')
 use('rust-lang/rust-analyzer')
 use('eslint/eslint')
 use('LuaLS/lua-language-server')
-use('williamboman/mason.nvim')
-
+use('regen100/cmake-language-server')
 use{
 	'VonHeikemen/lsp-zero.nvim',
 	requires = {

@@ -1,1 +1,2 @@
-print("Hello From Namak")
+require("namak.remap")
+

@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/namak/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["arduino-language-server"] = {
+    loaded = true,
+    path = "/home/namak/.local/share/nvim/site/pack/packer/start/arduino-language-server",
+    url = "https://github.com/arduino/arduino-language-server"
+  },
+  ["cmake-language-server"] = {
+    loaded = true,
+    path = "/home/namak/.local/share/nvim/site/pack/packer/start/cmake-language-server",
+    url = "https://github.com/regen100/cmake-language-server"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/namak/.local/share/nvim/site/pack/packer/start/cmp-buffer",
