@@ -1,5 +1,10 @@
 
 vim.g.mapleader = " "
+
+--save files with Ctrl+S
+vim.keymap.set("n", "<C-s>", vim.cmd.w)
+vim.keymap.set("n", "<C-s><Esc>", vim.cmd.wq)
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -63,4 +68,4 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 --To run tutor games by ThePrimeagen's Vim-Be-Good
-vim.keymap.set("n", "game", ":VimBeGood<return>")
+vim.keymap.set("n", "game", vim.cmd.VimBeGood)

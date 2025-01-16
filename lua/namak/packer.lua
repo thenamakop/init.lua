@@ -20,6 +20,13 @@ use ({
 		vim.cmd('colorscheme kanagawa-dragon')
 	end})
 
+use({
+    'bluz71/vim-moonfly-colors',
+    as = moonfly,
+    config = function()
+        vim.cmd('colorscheme moonfly')
+    end})
+
 use('arduino/arduino-language-server')
 use('rust-lang/rust-analyzer')
 use('eslint/eslint')

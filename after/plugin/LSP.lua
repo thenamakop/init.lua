@@ -1,4 +1,4 @@
--- NOTE: to make any of this work you need a language server.
+--, NOTE: to make any of this work you need a language server.
 -- If you don't know what that is, watch this 5 min video:
 -- https://www.youtube.com/watch?v=LaS32vctfOY
 
